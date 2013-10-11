@@ -1,6 +1,8 @@
 {
-  "name": "application-name",
+  "name": "les-robots.com",
   "version": "0.0.1",
+  "author": "les-robots.com <fprieur@gmail.com>",
+  "description": "le site web de les-robots.com",
   "private": true,
   "scripts": {
     "start": "node app.js"
