@@ -1,0 +1,21 @@
+{% for match in range %}
+	semaine {{ match }}
+<!-- 		<h3>Division Amicale</h3>
+	<ul>
+	{% for e in equipesAmicale %}
+		<li>{{ e.nom }}</li>
+	{% endfor %}
+	</ul>
+
+	<h3>Division Maison</h3>
+	<ul>
+	{% for e in equipesMaison %}
+		<li>{{ e.nom }}</li>
+	{% endfor %}
+	</ul>  -->
+	<ul>
+		{% for matchup in matchups %}
+			<li>{{ matchup.0 }} VS {{ matchup.1 }}</li>
+		{% endfor %}
+	</ul>
+{% endfor %}
